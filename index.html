@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Improvement Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vocabulary Improvement Website</h1>
+    </header>
+    <main>
+        <section id="vocabulary-chart">
+            <h2>Vocabulary Chart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>English Word</th>
+                        <th>Bangla Meaning</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Insert 100 words and meanings here -->
+                </tbody>
+            </table>
+        </section>
+        <section id="translator">
+            <h2>Translator</h2>
+            <textarea id="translate-input" placeholder="Enter text to translate"></textarea>
+            <button onclick="translateText()">Translate</button>
+            <p id="translate-output"></p>
+        </section>
+        <section id="grammar-checker">
+            <h2>Grammar Checker</h2>
+            <textarea id="grammar-input" placeholder="Enter text to check grammar"></textarea>
+            <button onclick="checkGrammar()">Check Grammar</button>
+            <p id="grammar-output"></p>
+        </section>
+        <section id="paragraph-maker">
+            <h2>Professional Paragraph Maker</h2>
+            <textarea id="paragraph-input" placeholder="Enter your text here"></textarea>
+            <button onclick="makeParagraph()">Make Paragraph</button>
+            <p id="paragraph-output"></p>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
